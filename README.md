@@ -1,12 +1,19 @@
 # TipDonusumleri
 
 '''namespace tipdonusumleri
+
+
 {
 class Program
+
+
     {
         static void Main(string[] args)
         {
+        
 //Implicit Conversion (Bilincsiz Dönüsüm)
+
+
        byte a = 5;
        sbyte b =30;
        short c =10;
