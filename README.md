@@ -1,15 +1,10 @@
 # TipDonusumleri
 
-'''namespace tipdonusumleri
-
-
+''' namespace tipdonusumleri
 {
-
 class Program
-
-
-    {
-        static void Main(string[] args)
+ {
+       static void Main(string[] args)
         {
         
 //Implicit Conversion (Bilincsiz Dönüsüm)//
@@ -31,11 +26,11 @@ class Program
        string e= "ayse";
        char f = 'k';
        object g = e+f+d;
-      Console.WriteLine("g:" +g);
+      Console.WriteLine("g:" +g);'''
 
 //Explicit Conversion(Bilincli Dönüsüm)//
 
-int x = 4;
+'''int x = 4;
 byte y = (byte)x;
  Console.WriteLine("y:" +y);
 
@@ -45,14 +40,13 @@ byte y = (byte)x;
 
  float w = 10.3f;
  byte v = (byte)w;
-  Console.WriteLine("v:" +v);
+  Console.WriteLine("v:" +v);'''
 
 // *** ToString Methodu aldigi veriye stringe test eder.//
 
+//***** ToString Methodu*******")//
 
- //***** ToString Methodu*******")//
-
- int xx = 6;
+ ''' int xx = 6;
  
  string yy =xx.ToString();
  
@@ -60,7 +54,7 @@ Console.WriteLine("yy:" +yy);
 
 string zz = 12.5f.ToString();
 
-Console.WriteLine("zz:" +z);
+Console.WriteLine("zz:" +z);'''
 
 
  //****System.Convert Methodu*****//
@@ -68,7 +62,7 @@ Console.WriteLine("zz:" +z);
  
  //"******System.Convert Methodu***********")//
 
- string s1 = "10", s2 = "20"; //Ayni anda iki String  tanimlama!!!!!! Bu sekilde tek satirda birden fazla veri tanimlamsi yapilabilir.***//
+ '''string s1 = "10", s2 = "20"; //Ayni anda iki String  tanimlama!!!!!! Bu sekilde tek satirda birden fazla veri tanimlamsi yapilabilir.***//
  int sayi1, sayi2;
  int Toplam;
 
@@ -76,17 +70,17 @@ Console.WriteLine("zz:" +z);
  sayi2 = Convert.ToInt32(s2);
 
  Toplam = sayi1 + sayi2 ;
- Console.WriteLine("Toplam:" +Toplam);
+ Console.WriteLine("Toplam:" +Toplam);'''
 
 // ********Parse methodu kullanmak******//
   
-  ParseMethod();
+  'ParseMethod();
 
-  } 
+  }' 
  
  // Degisken isimleri tükendi ve dahafazla yaratici olamiycaz.Burda dikkat eddilmesi gereken önemli mevzu ayin degisken isimlerini ayni kod blogu üzerinde birden fazla kez kullanilmiyacagi bu durumda farkli bir kod blogu acip ayni degiskenleri kullanmaya devam edebiliriz.burda ayri bir fonsiyon oluyturuyoruz, cünkü main icinden cagirmazsam hicbir kod blogu calismiycak.//
 
-  public static void ParseMethod()
+  '''public static void ParseMethod()
   
   {
     string metin1 ="10";
