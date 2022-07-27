@@ -4,6 +4,7 @@
 
 
 {
+
 class Program
 
 
@@ -11,7 +12,7 @@ class Program
         static void Main(string[] args)
         {
         
-//Implicit Conversion (Bilincsiz Dönüsüm)
+//Implicit Conversion (Bilincsiz Dönüsüm)//
 
 
        byte a = 5;
@@ -32,7 +33,7 @@ class Program
        object g = e+f+d;
       Console.WriteLine("g:" +g);
 
-//Explicit Conversion(Bilincli Dönüsüm)
+//Explicit Conversion(Bilincli Dönüsüm)//
 
 int x = 4;
 byte y = (byte)x;
@@ -46,21 +47,28 @@ byte y = (byte)x;
  byte v = (byte)w;
   Console.WriteLine("v:" +v);
 
-// *** ToString Methodu aldigi veriye stringe test eder.
- Console.WriteLine("***** ToString Methodu*******");
+// *** ToString Methodu aldigi veriye stringe test eder.//
+
+
+ //***** ToString Methodu*******")//
 
  int xx = 6;
+ 
  string yy =xx.ToString();
-  Console.WriteLine("yy:" +yy);
+ 
+Console.WriteLine("yy:" +yy);
 
 string zz = 12.5f.ToString();
- Console.WriteLine("zz:" +z);
+
+Console.WriteLine("zz:" +z);
 
 
- //****System.Convert Methodu*****
- Console.WriteLine("******System.Convert Methodu***********");
+ //****System.Convert Methodu*****//
+ 
+ 
+ //"******System.Convert Methodu***********")//
 
- string s1 = "10", s2 = "20"; //Ayni anda iki String  tanimlama!!!!!! Bu sekilde tek satirda birden fazla veri tanimlamsi yapilabilir.***
+ string s1 = "10", s2 = "20"; //Ayni anda iki String  tanimlama!!!!!! Bu sekilde tek satirda birden fazla veri tanimlamsi yapilabilir.***//
  int sayi1, sayi2;
  int Toplam;
 
@@ -70,17 +78,13 @@ string zz = 12.5f.ToString();
  Toplam = sayi1 + sayi2 ;
  Console.WriteLine("Toplam:" +Toplam);
 
-// ********Parse methodu kullanmak******
+// ********Parse methodu kullanmak******//
   
   ParseMethod();
 
   } 
-  // Degisken isimleri tükendi ve dahafazla yaratici olamiycaz.
-  // Burda dikkat eddilmesi gereken önemli mevzu ayin degisken isimlerini
-  // ayni kod blogu üzerinde birden fazla kez kullanilmiyacagi
-  // bu durumda farkli bir kod blogu acip ayni degiskenleri kullanmaya devam edebiliriz.
-  //burda ayri bir fonsiyon oluyturuyoruz, cünkü main icinden cagirmazsam hicbir 
-  //kod blogu calismiycak.
+ 
+ // Degisken isimleri tükendi ve dahafazla yaratici olamiycaz.Burda dikkat eddilmesi gereken önemli mevzu ayin degisken isimlerini ayni kod blogu üzerinde birden fazla kez kullanilmiyacagi bu durumda farkli bir kod blogu acip ayni degiskenleri kullanmaya devam edebiliriz.burda ayri bir fonsiyon oluyturuyoruz, cünkü main icinden cagirmazsam hicbir kod blogu calismiycak.//
 
   public static void ParseMethod()
   
@@ -97,15 +101,4 @@ string zz = 12.5f.ToString();
     Console.WriteLine("rakam1:" +rakam1);
     Console.WriteLine("double1:" +double1);
 
-
-  }
-
-
-
-
-
-    }
-
-
-
-}'''
+}}}'''
