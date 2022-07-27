@@ -1,10 +1,8 @@
 # TipDonusumleri
-C# Tip dönüsümleri
-
 
 '''namespace tipdonusumleri
 {
-    class Program
+class Program
     {
         static void Main(string[] args)
         {
